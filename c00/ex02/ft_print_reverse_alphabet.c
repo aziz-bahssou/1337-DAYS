@@ -5,7 +5,6 @@ void ft_print_alphabet(){
     while (c >= 'a'){
         write(1,&c,1);
         c--;
-    }
-    
+    }   
 }
 
