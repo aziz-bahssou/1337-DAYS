@@ -6,3 +6,6 @@ void ft_print_numbers(){
         write(1,&i,1);
     }
 }
+int main(){
+    ft_print_numbers();
+}
