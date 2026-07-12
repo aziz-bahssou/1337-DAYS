@@ -38,3 +38,4 @@ void ft_print_combn(int n){
             arr[i] = arr[i - 1] + 1;        
     }  
 }
+
