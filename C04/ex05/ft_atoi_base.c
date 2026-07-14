@@ -5,15 +5,14 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: rokaziz <rokaziz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/07/13 21:21:10 by rokaziz           #+#    #+#             */
-/*   Updated: 2026/07/13 22:16:12 by rokaziz          ###   ########.fr       */
+/*   Created: 2026/07/14 23:04:37 by rokaziz           #+#    #+#             */
+/*   Updated: 2026/07/14 23:06:46 by rokaziz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-int	ft_baselen(char *str)
+int ft_baselen(char *str)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (str[i])
@@ -23,10 +22,10 @@ int	ft_baselen(char *str)
 	return (i);
 }
 
-int	ft_isvalide(char *str)
+int ft_isvalide(char *str)
 {
-	int	i;
-	int	j;
+	int i;
+	int j;
 
 	if (str[0] == '\0' || str[1] == '\0')
 		return (0);
@@ -47,9 +46,9 @@ int	ft_isvalide(char *str)
 	return (1);
 }
 
-int	get_base(char c, char*base)
+int get_base(char c, char *base)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (base[i])
@@ -63,12 +62,12 @@ int	get_base(char c, char*base)
 	return (-1);
 }
 
-int	ft_atoi_base(char *str, char *base)
+int ft_atoi_base(char *str, char *base)
 {
-	int	res;
-	int	i;
-	int	len;
-	int	sing;
+	int res;
+	int i;
+	int len;
+	int sing;
 
 	sing = 1;
 	res = 0;
