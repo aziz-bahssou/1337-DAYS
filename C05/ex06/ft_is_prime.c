@@ -6,19 +6,18 @@
 /*   By: rokaziz <rokaziz@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/07/14 21:03:32 by rokaziz           #+#    #+#             */
-/*   Updated: 2026/07/14 22:10:23 by rokaziz          ###   ########.fr       */
+/*   Updated: 2026/07/14 22:28:36 by rokaziz          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_is_prime(int nb)
+int	ft_is_prime(int nb)
 {
 	int	i;
 
 	if (nb <= 1)
 		return (0);
-	
 	i = 2;
-	while(i * i <= nb)
+	while (i * i <= nb)
 	{
 		if (nb % i == 0)
 			return (0);
